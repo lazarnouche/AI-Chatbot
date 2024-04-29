@@ -1,0 +1,94 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://192.168.1.46:8503
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/Meshkan/opt/anaconda3/envs/dev/lib/python3.10/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import FAISS`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+/Users/Meshkan/opt/anaconda3/envs/dev/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:115: LangChainDeprecationWarning: The class `OpenAIEmbeddings` was deprecated in LangChain 0.1.0 and will be removed in 0.2.0. Use langchain_openai.OpenAIEmbeddings instead.
+  warn_deprecated(
+/Users/Meshkan/opt/anaconda3/envs/dev/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:115: LangChainDeprecationWarning: The class `OpenAI` was deprecated in LangChain 0.1.0 and will be removed in 0.2.0. Use langchain_openai.OpenAI instead.
+  warn_deprecated(
+2024-02-24 13:14:32,351 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-02-24 13:14:34,043 - INFO - Loading faiss with AVX2 support.
+2024-02-24 13:14:34,078 - INFO - Successfully loaded faiss with AVX2 support.
+2024-02-24 13:14:41,564 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+/Users/Meshkan/opt/anaconda3/envs/dev/lib/python3.10/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import FAISS`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-02-24 13:15:53,040 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-02-24 13:16:19,692 - INFO - Start answering based on prompt: WHAT IS FUSION 4.
+2024-02-24 13:16:19,694 - INFO - The top 3 chunks are considered to answer the user's query.
+/Users/Meshkan/opt/anaconda3/envs/dev/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:115: LangChainDeprecationWarning: The function `__call__` was deprecated in LangChain 0.1.0 and will be removed in 0.2.0. Use invoke instead.
+  warn_deprecated(
+2024-02-24 13:16:19,947 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-02-24 13:16:20,695 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-02-24 13:16:20,698 - INFO - The returned answer is:  Fusion4 is a system that includes various components such as the SSC-A and MSC-A, and is used for communication. It also has a manual for installation and operation.
+2024-02-24 13:16:20,876 - INFO - Answering module over.
+2024-02-24 13:18:10,360 - INFO - Start answering based on prompt: WHAT IS SSC-A.
+2024-02-24 13:18:10,362 - INFO - The top 3 chunks are considered to answer the user's query.
+2024-02-24 13:18:10,856 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-02-24 13:18:11,397 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-02-24 13:18:12,929 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-02-24 13:18:12,932 - INFO - The returned answer is:  The SSC-A (Single Stream Controller for Additive Injection) is a component of the Fusion4 system that is designed to control one single additive stream. It is used in product transfer applications where multiple products need to be accurately combined, such as road tanker loading, rail off-loading, or pipeline transfer. The SSC-A monitors the flow of the wild stream and uses this flow rate to accurately pace the flow of the additive stream to a pre-determined target ratio in parts per million (ppm). It operates through rapid and accurate injections of small volumes of additive at evenly spaced intervals. 
+2024-02-24 13:18:13,056 - INFO - Answering module over.
+2024-02-24 13:19:08,954 - INFO - Start answering based on prompt: I receive error message « Option Not Installed«  what should I do?.
+2024-02-24 13:19:08,956 - INFO - The top 3 chunks are considered to answer the user's query.
+2024-02-24 13:19:09,251 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-02-24 13:19:10,013 - INFO - HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+2024-02-24 13:19:10,015 - INFO - The returned answer is:  You should check the version of the controller and make sure that the command code is supported. If the command code is not supported, you may need to upgrade the controller or use a different command code.
+2024-02-24 13:19:10,147 - INFO - Answering module over.
+page_content='Communication Manual\nFusion4' metadata={'source': '/Users/Meshkan/Documents/Projects/context_chatbot/doc/Fusion4/118_4418305_Rev02  Fusion4 Communication Manual.pdf', 'page': 0}
+
+page_content='NOTE: For more information see Installation & Operation Manual Fusion4 SSC-A.' metadata={'source': '/Users/Meshkan/Documents/Projects/context_chatbot/doc/Fusion4/118_4418305_Rev02  Fusion4 Communication Manual.pdf', 'page': 15}
+
+page_content='Fusion4 System Overview\nFusion4 Part No.: 4418305_Rev02\n3 - 8 Communication Manual\nNOTE: For more information see the Installation & Operation Manual Fusion4 MSC-A.\n3.5 Fusion4 MSC-L\n=> Future implementation' metadata={'source': '/Users/Meshkan/Documents/Projects/context_chatbot/doc/Fusion4/118_4418305_Rev02  Fusion4 Communication Manual.pdf', 'page': 19}
+
+page_content='NOTE: For more information see Installation & Operation Manual Fusion4 SSC-A.' metadata={'source': '/Users/Meshkan/Documents/Projects/context_chatbot/doc/Fusion4/118_4418305_Rev02  Fusion4 Communication Manual.pdf', 'page': 15}
+
+page_content='3.2 Fusion4 SSC-A\n3.2.1 General\nThe Fusion4 SSC-A (Single Stream Controller for Additive Injection) is \ndesigned to control one single additive stream. It can operate within any \nproduct transfer application, such as road tanker loading, rail off-loading or pipeline transfer, where multiple products need to be accurately \ncombined.\n3.2.2 Principle of Operation\nThe basic principle of operation is  achieved by the Fusion4 SSC-A \nmonitoring the flow of the wild stream, and usModule exists.
+page_content='33Why do we need etching in microelectronics?Integrated circuits are made of transistors and interconnects:èwell positioned patterns of well defined materialsènecessity to create and locate patterns of specific materials\nPhotolithography is used to define and locate patterns èonly available in photoresist (polymer)Patterns are transferred in the material of choice by etching' metadata={'source': 'doc/AMAT/AMAT_PartI.pdf', 'page': 32}
+
+page_content='166 STI ETCHING' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 165}
+
+page_content='Plasma etching for front end of line applications Plasma etching for front end of line applications' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 1}
+
+page_content='Bare silicon wafer, HBr/Cl2/O2chemistry, typical gate etch conditionsMaterial deposited on the chamber walls: SiOCl layerChamber wall coatings during silicon etching in halogen plasmas(alumina floating on a bare silicon wafer)\n01020304050607080\n155Element concentration (%)O2gas flow (sccm)SiOCl+Br\n137' metadata={'source': 'doc/AMAT/AMAT_PartI.pdf', 'page': 136}
+
+page_content='90How can we achieveIsotropic plasma etching ?CF4R.F or Microwave power\nPumpPlasmaFÞSiF4Si substrate1)Flow inertCF4gas through the reactor.2)Make discharge to create reactive species CF4+ e-®CF3+ F + e-3)Choose chemistry so that the reactive species (F) react with the solid to form volatileetching products : Si + 4 F ®SiF4\xad4)Pump away etching products = silicon removal from systemEtchingisisotropic(etchrateisthesameinalldirections)becauseFatomshaveanisotropicvelocitydistribution.MaskSubstrateF' metadata={'source': 'doc/AMAT/AMAT_PartI.pdf', 'page': 89}
+
+page_content='Bias power: 50W\nGas flow: 100 sccm\nPressure: 4 mT\nPlasma exposure time: 30s\n300mm industrial ICP etcher 248nm PR 193nm PR A. Bazin et al.  193nm PR is less resistant to plasma than 248nm PR' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 8}
+
+page_content='What strategy to etch nitride spacer and land on silicon \nAnother strategy consists in using a two step etch process:\n\nIn a first step, a CHF3/He mixture is used at moderate bias (less than 50W) and low pressure\n\nIn a second step,  a CH3F/O2/He mixture at high pressure and low bias (less than 10 W) is used to land on silicon \n\nA two step etch process generates less recess but may generate foot at the bottom of the nitride spacer' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 157}
+
+page_content='Silicon gate etch sequence  Silicon gate etching is usually performed in 4 steps:\n\nBreakthrough (BT): quick oxide removal step \netched native oxide on silicon gate\n\n\nMain Etch (ME): fast and anisotropic etching \netches the major part of the gate\n\n\nSoft Landing (SL): less aggressive process toward the gate oxide\netches the last ~15nm\n\n\nOver Etch (OE): minimal damage to the gate oxide \n\t\uf0e8 etched residues due to topography dependant etching and/or nonuniformity  Break Through Main Etch Soft Landing Over Etch' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 107}
+
+page_content='Bare silicon wafer, HBr/Cl2/O2chemistry, typical gate etch conditionsMaterial deposited on the chamber walls: SiOCl layerChamber wall coatings during silicon etching in halogen plasmas(alumina floating on a bare silicon wafer)\n01020304050607080\n155Element concentration (%)O2gas flow (sccm)SiOCl+Br\n137' metadata={'source': 'doc/AMAT/AMAT_PartI.pdf', 'page': 136}
+
+page_content='Etch mechanisms in CW CH3F 100 / O2 70 / He 85 sccm\n[CH3F]/[O2] ratio of 1.4\n\nScreening of selectivity as a function of the [CH3F]/[O2] ratio\nTotal gas flow kept constant\n\nSi3N4 and Si etching show two main etch regimes\nOxidation Vs Polymerization\n\nNeed to have high selectivity with good spacer profiles\nNarrow process window Oxydation   Polymerization\nIncreased footing effect 162 R. Blanc 10/10/2012' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 161}
+
+page_content='Mass spectrometry analyses of HBr/Cl2/O2and HBr/Cl2/O2/CF4high density plasmas\nOlivier Joubert-CNRS169' metadata={'source': 'doc/AMAT/AMAT_PartI.pdf', 'page': 168}
+
+page_content='The right graph shows that isolated resist lines are trimmed faster than dense resist lines with HBr/O2 chemistries while the opposite trend is observed with the Cl2/O2 chemistries. This trend which is obtained in many cases shows that the mechanism behind trimming processes using this two different chemistries are quite different . Pargon et al. J. Vac; Sci. Technol. B 22 (2004), 2969  100(Cl2/HBr+O2), 10 mTorr, 500Ws, 50Wb, 30sec Patterned DUV-PR on DARC In Cl2/O2 and HBr/O2 plasmas,  trim rate increases with the O2 concentration in the gas phase.' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 39}
+
+page_content='Amorphous carbon etching in O2/N2/CH4 Increasing carbon concentration generates more sidewall passivation that leads to tapered profiles Increasing ion energy leads to faceting SiON hard mask that in turns generates sloped carbon sidewalls 97' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 96}
+
+page_content='Carbon improves etch resistance while oxygen degrades etch resistance of PR (empirical Ohnishi parameter) Gokan et al., JECS 130 (1983), 143' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 8}
+
+page_content='166 STI ETCHING' metadata={'source': 'doc/AMAT/AMAT_PartII.pdf', 'page': 165}
+
+Module exists.
+  Stopping...
